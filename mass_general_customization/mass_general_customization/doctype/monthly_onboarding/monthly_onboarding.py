@@ -37,7 +37,7 @@ class MonthlyOnboarding(Document):
 		total_sales_collection = 0
 		
 		for onboarding_list in self.onboarding_lists:
-			total_sales_collection += onboarding_list.total
+			total_sales_collection += onboarding_list.achievement
 
 		self.total_sales_collection = total_sales_collection
 
